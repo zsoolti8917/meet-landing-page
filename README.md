@@ -50,11 +50,8 @@ Finished project on a 375px screen
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Sass](https://sass-lang.com/) - CSS preprocessor
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
