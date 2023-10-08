@@ -1,0 +1,35 @@
+@import 'variables', 'reset', 'mixin', 'home', 'config', 'media';
+
+body{
+   font-family: $font-family;
+   min-height: 100vh;
+   background-color: $primary-color-100;
+   color: $primary-color-800;
+   font-size: $text-size-medium;
+   display: flex;
+   flex-direction: column;
+}
+
+header{
+    padding: 3rem 0 ;
+    @include flex($direction: column, $align: center, $justify: center);
+}
+
+main{
+    flex: 1;
+    @include flex($direction: column, $align: center, $justify: center);
+}
+
+.btn{
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    @include easin-out;
+    border: none;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
